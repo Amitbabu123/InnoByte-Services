@@ -20,6 +20,9 @@ const App = () => {
       <Room/>
       <Services/>
       <Contact/>
+      {/* <div className="w-10 h-1 bg-pink-600"></div> */}
+<h1 className="text-3xl mb-4 text-center">Gallery <span className="w-10 h-1 bg-pink-600"></span></h1>
+
       <Photo/>
       <Map/>
       <Footer/>

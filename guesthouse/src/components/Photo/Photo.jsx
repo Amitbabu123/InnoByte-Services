@@ -12,36 +12,38 @@ import MithonDam from '../../assets/mithonDam.webp'; // Importing the image
 
 const Photo = () => {
   return (
-    <div className="container11 grid grid-cols-1 md:grid-cols-4 ">
-      <div className="box11 a">
-        <img className="h-auto max-w-full rounded-lg " src={Out} alt="Out" />
-      </div>
-      <div className="box11 b">
-        <img className="h-auto max-w-full rounded-lg " src={AyoDhya} alt="AyoDhya" />
-      </div>
-      <div className="box11 c">
-        <img className="h-auto max-w-full rounded-lg " src={Large} alt="Large" />
-      </div>
-      <div className="box11 d">
-        <img className="h-auto max-w-full rounded-lg" src={Palash} alt="Palash" />
-      </div>
-      <div className="box11 e">
-        <img className="h-auto max-w-full rounded-lg " src={Small} alt="Small" />
-      </div>
-      <div className="box11 f">
-        <img className="h-auto max-w-full rounded-lg " src={Baranti} alt="Baranti" />
-      </div>
-      <div className="box11 g">
-        <img className="h-auto max-w-full rounded-lg " src={Recep} alt="Recep" />
-      </div>
-      <div className="box11 h">
-        <img className="h-auto max-w-full rounded-lg " src={Flower} alt="Flower" />
-      </div>
-      <div className="box11 j">
-        <img className="h-auto max-w-full rounded-lg " src={Room} alt="Room" />
-      </div>
-      <div className="box11 i">
-        <img className="h-auto max-w-full rounded-lg" src={MithonDam} alt="MithonDam" />
+    <div className="container mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Out} alt="Out" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={AyoDhya} alt="AyoDhya" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Large} alt="Large" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Palash} alt="Palash" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Small} alt="Small" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Baranti} alt="Baranti" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Recep} alt="Recep" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Flower} alt="Flower" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={Room} alt="Room" />
+        </div>
+        <div className="box11">
+          <img className="w-full h-full object-cover" src={MithonDam} alt="MithonDam" />
+        </div>
       </div>
     </div>
   );
